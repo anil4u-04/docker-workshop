@@ -2,9 +2,8 @@ From ubuntu:20.04
 
 RUN apt-get update
 
-RUN apt-get install -y python python-setuptools python-dev build-essential python3-pip
+RUN apt-get install -y python3 python3-setuptools python3-dev build-essential python3-pip
 
-RUN pip install flask
 
 RUN apt install -y  python3-flask
 
