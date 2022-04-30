@@ -15,10 +15,10 @@ Below are the steps required to get this working on a base linux system.
 
 Docker and its dependencies 
   
-    ```
+    
     sudo apt-get update
     sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
-    ```
+    
  
  ## 2. Clone the repo or copy the files to your local servers.
  
@@ -30,22 +30,22 @@ Docker and its dependencies
 
 Build the docker image from the Dockerfile
 
-    ```
+    
     docker build --no-cache -t sampleapp:latest .
-    ```
+    
 
 ## 4. Running the docker run command 
 
 Run the docker run command to application to start.
 
-    ```
+    
     docker run -p 5000:5000 -it sampleapp
-    ```
+    
  if you want to make the container to run background use this command
  
-    ```
+    
     docker run -dp 5000:5000 -it sampleapp
-    ```
+    
  
  ## 5. Testing 
  
