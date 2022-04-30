@@ -22,9 +22,9 @@ Docker and its dependencies
  
  ## 2. Clone the repo or copy the files to your local servers.
  
-    ```
+    
     git clone https://github.com/anil4u-04/docker-workshop.git
-    ```
+    
 
 ## 3. Build Docker image
 
