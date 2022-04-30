@@ -16,8 +16,7 @@ Below are the steps required to get this working on a base linux system.
 Docker and its dependencies 
   
     
-    sudo apt-get update
-    sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
+    sudo snap install docker
     
  
  ## 2. Clone the repo or copy the files to your local servers.
