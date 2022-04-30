@@ -30,7 +30,7 @@ Docker and its dependencies
 
 Build the docker image from the Dockerfile
 
-    
+    cd docker-workshop
     docker build --no-cache -t sampleapp:latest .
     
 
